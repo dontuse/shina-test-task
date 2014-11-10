@@ -1,0 +1,45 @@
+.b-popup {
+  background: #ffffff;
+  border-radius: 6px;
+  width: 885px;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  margin-left: -885px/2;
+  overflow: hidden;
+  border: 1px solid #d6d6d6;
+}
+
+.b-popup__title {
+  font-size: 46px;
+  margin-bottom: 24px;
+  font-family: robotolight;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin-bottom: 26px;
+}
+
+.b-popup__body {
+  padding: 50px;
+  padding-top: 31px;
+}
+
+.b-popup__footer {
+  background: #eeeeee;
+  .clearFix();
+  padding: 50px;
+  padding-top: 45px;
+}
+
+.b-popup__close,
+.b-popup__close:visited,
+.b-popup__close:hover {
+  background-image: url("../blocks/b-popup/b-popup__close.png");
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 32px;
+  right: 30px;
+  text-indent: -999999px;
+}
