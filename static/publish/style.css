@@ -625,7 +625,7 @@ textarea {
 .b-basket-actions__order:visited,
 .b-basket-actions__order:hover {
   font-size: 27px;
-  line-height: 59px;
+  line-height: 60px;
   color: #ffffff;
   background: #bd0000;
   display: inline-block;
@@ -718,13 +718,13 @@ textarea {
 .b-special-offer__chk {
   position: absolute;
   top: 50%;
-  margin-top: -16px;
-  left: -13px;
+  margin-top: -12px;
+  left: -16px;
   line-height: 1;
 }
 .b-special-offer__result {
   float: left;
-  margin-top: 23px;
+  margin-top: 25px;
 }
 .b-special-offer__pic img {
   max-width: 100%;
@@ -749,6 +749,11 @@ textarea {
 .b-special-offer__old-price {
   font-size: 13px;
   text-decoration: line-through;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.b-special-offer__old-price i {
+  font-style: normal;
 }
 .b-special-offer__f-price {
   font-size: 31px;
